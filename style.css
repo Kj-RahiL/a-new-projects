@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .m-contrainer{
     background-color: rgb(47, 1, 1);
@@ -70,7 +71,7 @@ li:hover{
     font-weight: bold;
     text-align: center;
     padding: 10px;
-    background-color: rgb(221, 178, 119);
+    background: linear-gradient(45deg,rgb(60, 32, 0),rgb(228,177, 109));
 }
 .about-contrainer{
     display: flex;
@@ -97,29 +98,33 @@ li:hover{
     margin-bottom: 10px;
 }
 .sec-head{
+    color: whitesmoke;
     font-size: 70px;
     font-weight: bold;
     text-align: center;
     padding: 10px;
-    background-color: rgb(240, 236, 236);
+    background: linear-gradient(180deg,rgb(228, 177, 109),rgb(59, 24, 24));
 }
 .service-contrainer{
     color: white;
     display: flex;
     justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(59, 24, 24);
 }
 .box{
     background-color: black;
     width: 220px;
-    height: 320px;
+    height: 340px;
     align-items: center;
     box-shadow: 4px 8px 15px gray;
     text-align: center;
     padding: 20px;
+    margin-bottom: 15px;
 }
 .box p{
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
 }
 .box h4{
     font-size: 24px;
@@ -128,4 +133,41 @@ li:hover{
 .box-img{
     width: 120px;
     align-items: center;
+}
+.btn0{
+    background-color: gray;
+    margin-top: 10px;
+    color: white;
+}
+
+.foot-contrainer{
+    background: linear-gradient(-90deg,rgb(52, 1, 1),rgb(34, 43, 34));
+    display: flex;
+    color: white;
+    justify-content: space-around;
+     align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+.ft-logo{
+    width: 140px;
+    margin: 10px;
+}
+.logo1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social-link{
+    
+}
+.foot-contrainer h2{
+    margin: 15px 0px 20px;
+    font-size: 24px;
+
+}
+.foot-contrainer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 5px;
 }
