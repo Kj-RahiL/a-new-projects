@@ -59,4 +59,39 @@ li:hover{
     border-radius: 5px;
     color: rgb(203, 196, 196);
     font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(144, 109, 3);
+}
+.aboout-head{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(163, 135, 97);
+}
+.about-contrainer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(228, 177, 109);
+
+}
+.a-c-text h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.a-c-text p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.a-c-img{
+
+}
+.sec-img{
+    width: 300px;
+    margin-top: 10px;
 }
